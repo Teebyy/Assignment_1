@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div id="header">
+            <div id="logo">e!</div>
+            <div id="btn">
+                <button id="log">Login</button>
+                <button id="acc">Create An Account</button>
+            </div>
+        </div>
+    </div>
+    <div id="heading">Breakfast Places in Mumbai</div>
+    <div id="main">
+        <div id="filter">
+            <label id="sh"> Filters </label> <br>
+            <div id="loc" style="margin-bottom: 22px;"><br>
+                <label id="inhd">Select Location </label><br>
+                <select name="Area" id="c0" style="margin-top: 7px;">
+                    <option value="" id="c">Select Location   </option>
+                    <option value="" id="c">Satellite</option>
+                    <option value="" id="c">Vastrapur</option>
+                </select>
+            </div>
+            <div id="chk" style="text-align: left;">
+                <label for="c" id="inhd"> Cuisine</label><br>
+                <input type="checkbox" id="c" style="margin-top: 10px;"> North Indion<br>
+                <input type="checkbox" id="c" checked> South Indion<br>
+                <input type="checkbox" id="c" checked> Chinese<br>
+                <input type="checkbox" id="c"> Fast Food<br>
+                <input type="checkbox" id="c"> Street Food<br>
+            </div>
+            <div id="rd" style="margin-top: 30px;">
+                <label for="c2" id="inhd"> Cost For Two </label><br>
+                <input type="radio" name="cost" id="c" style="margin-top: 10px"> Less than'500<br>
+                <input type="radio" name="cost" id="c">'500 to '1000<br>
+                <input type="radio" name="cost" id="c">'1000 to '1500 <br>
+                <input type="radio" name="cost" id="c">'1500 to '2000 <br>
+                <input type="radio" name="cost" id="c">'2000+
+            </div>
+            <div id="srt" style="margin-top: 30px;">
+                <label for="c3" id="sh"> Sort </label><br>
+                <input type="radio" name="Price" id="c" style="margin-top: 10px;"> Price low to High<br>
+                <input type="radio" name="Price" id="c"> Price High to Low
+            </div>
+        </div>
+        <div id="item">
+            <!--First Result-->
+            <div id="i">
+                <div id="ii" style="display: flex;">
+                    <div>
+                        <img id="img" src="./img.png" />
+                    </div>
+                    <div id="txt">
+                        <div id="t1">The Big Chill Cakery</div>
+                        <div id="t2">FORT</div>
+                        <div id="t3">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                    </div>
+                </div>
+                <hr>
+              
+                    <table>
+                        <tr style="text-align: left; ">
+                            <th id="st">CUISINES:</th>
+                            <td></td>
+                            <td></td>
+                            
+                            <td>Bakery</td>
+                        </tr>
+                        <tr>
+                            <th id="st">COST FOR TWO:</th>
+                            <td></td>
+                            <td></td>
+                            <td>&#8377;700</td>
+                        </tr>
+                    </table>
+               
+            </div>
+            <!--Second Result-->
+            <div id="i">
+                <div id="ii" style="display: flex;">
+                    <div>
+                        <img id="img" src="./img.png" />
+                    </div>
+                    <div id="txt">
+                        <div id="t1">The Bake Shop</div>
+                        <div id="t2">FORT</div>
+                        <div id="t3">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                    </div>
+                </div>
+                <hr style="opacity: 0.4; position: relative; width: 90%;">
+               
+                    <table>
+                        <tr style="text-align: left;">
+                            <th id="st">CUISINES:</th>
+                            <td></td>
+                            <td></td>
+                            <td>Bakery</td>
+                        </tr>
+                        <tr>
+                            <th id="st">COST FOR TWO:</th>
+                            <td></td>
+                            <td>&nbsp;</td>
+                            <td style="right: 5px;">&#8377;700</td>
+                        </tr>
+                    </table>
+           
+            </div>
+            <div id="page">
+                <div id="p"><</div>
+                <div id="p1">1</div>
+                <div id="p">2</div>
+                <div id="p">3</div>
+                <div id="p">4</div>
+                <div id="p">5</div>
+                <div id="p">></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
